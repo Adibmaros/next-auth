@@ -7,9 +7,8 @@ const page = async () => {
   console.log(session);
 
   return (
-    <div>
+    <div className="mx-auto">
       <Lists />
-
       <pre>{JSON.stringify(session)}</pre>
     </div>
   );
